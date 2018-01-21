@@ -14,6 +14,8 @@
   [framework层](https://android.googlesource.com/platform/frameworks/base.git/+/master/cmds/input/src/com/android/commands/input/Input.java)
   input工具的缺点就是默认不能模拟出按压的Prs值和Size值，因为默认都是1.0，需要重新编译打包input.jar文件，修改其默认参数
   修改injectMotionEvent方法中的形参pressure和局部变量DEFAULT_SIZE，这两个参数分别对应Prs和Size值
+  
+  ![GitHub Logo](/images/img_point_location.PNG)  
 ```
 Usage: input [<source>] <command> [<arg>...]
 
